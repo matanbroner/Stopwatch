@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #393A4C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.buttonBar {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background-color: #BCC2C5;
+  border: 1px solid #212121;
+  box-shadow: 0px 0px 10px #212121;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.buttonBar > .button {
+  margin: 15px;
+}
+
+#navForm {
+  display: flex;
+  flex-direction: row;
+}
+
+#navForm > span {
+  padding-top: 2px;
+  margin-right: 10px;
+}
+
+#navForm > input {
+  border-radius: 5px;
+  width: 100px
+}
